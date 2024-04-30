@@ -1,12 +1,12 @@
-import styles from './index.module.scss';
+import { Fragment } from "react";
 import NotFound from '$src/components/not-found';
 import { Hello } from "provider/Hello";
 
 export default function () {
   return (
-    <div className={styles.content}>
+    <Fragment>
       <NotFound />
-      <Hello />
-    </div>
+      <Hello origin="mf-customer" />
+    </Fragment>
   );
 }
