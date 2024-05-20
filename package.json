@@ -1,7 +1,7 @@
 {
-  "name": "rspack-mf-react-customer",
+  "name": "rspack-mf-react-consumer",
   "version": "1.0.0",
-  "description": "A react demo of module federation customer.",
+  "description": "A react demo of module federation consumer.",
   "private": true,
   "type": "module",
   "scripts": {
